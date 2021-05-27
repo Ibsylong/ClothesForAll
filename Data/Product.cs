@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -35,10 +36,10 @@ namespace ClothesForAll.Data
         public int CategoryId { get; set; }
     }
 
-    public class Type
+    public class ClothesType
     {
-        public int TypeId { get; set; }
-        public string TypeName { get; set; }
+        public int ClothesTypeId { get; set; }
+        public string ClothesTypeName { get; set; }
         public string Description { get; set; }
     }
 

@@ -16,7 +16,7 @@ namespace ClothesForAll.Data
         public DbSet<Size> Sizes { get; set; }
         public DbSet<Image> Images { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Type> Types { get; set; }
+        public DbSet<ClothesType> ClothesTypes { get; set; }
         public DbSet<Category>  Categories { get; set; }
     }
 }
